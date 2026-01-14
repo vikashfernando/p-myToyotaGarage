@@ -21,7 +21,7 @@ public class Main{
         ToyotaVehicle allion1=new Car(2025,"wineRed",2,1500);
 
         allion1.startEngine();
-
+        allion1.sportMode();
 
 
 
