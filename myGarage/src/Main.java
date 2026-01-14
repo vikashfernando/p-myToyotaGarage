@@ -25,6 +25,8 @@ public class Main{
 
         System.out.println("**********************");
 
+        ToyotaVehicle[] parkingLot1=new ToyotaVehicle[4];
+
 
 
     }
