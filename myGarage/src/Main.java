@@ -12,7 +12,11 @@ public class Main{
         prado1.startEngine();
 
         //create a axio car
-        Car axio1=new Car(2022,"white",1,1000);
+        Car axio1=new Car(2022,"white",1,1200);
+        
+        //create a vehicle typed car
+
+        ToyotaVehicle allion=new Car(2025,"wineRed",2,1500);
 
 
 
