@@ -8,7 +8,6 @@ public class Suv extends ToyotaVehicle{
         engineType=e;
     }
 
-
     //methods
     public void offRoadMode(){
         System.out.println("offRoadMode on");
