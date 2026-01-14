@@ -47,4 +47,8 @@ public class ToyotaVehicle{
         System.out.println("this - "+year);
     }
 
+    public final void saftyCheck(){
+        System.out.println("safty sensors checked");
+    }
+
 }
