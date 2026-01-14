@@ -8,8 +8,8 @@ public class Main{
 
         prado1.offRoadMode();  // a method from Suv
         prado1.startEngine();  //a method from ToyotaVehicle
-
         System.out.println(prado1.getColor());
+        prado1.startEngine();
 
         //create a axio car
         Car axio1=new Car(2022,"white",1,1000);
