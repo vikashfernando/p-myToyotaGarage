@@ -4,11 +4,10 @@ public class Main{
 
         Suv prado1=new Suv(2022,"black",6,"petrol");
 
-        prado1.offRoadMode();  // a method from suv
-        prado1.startEngine();
-        String a=prado1.getColor();
-
-        System.out.println(a);
+        prado1.offRoadMode();  // a method from Suv
+        prado1.startEngine();  //a method from ToyotaVehicle
+        
+        System.out.println(prado1.getColor());
 
 
 
