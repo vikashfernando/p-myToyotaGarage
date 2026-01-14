@@ -33,7 +33,7 @@ public class Main{
         for(ToyotaVehicle v: parkingLot1){
             v.startEngine();
             v.stopEngine();
-            v.getColor();
+            v.displayInfo();
         }
 
     }
