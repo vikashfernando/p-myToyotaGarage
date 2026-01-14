@@ -14,7 +14,7 @@ public class Main{
         //create a axio car
         Car axio1=new Car(2022,"white",1,1000);
 
-        
+
 
 
     }

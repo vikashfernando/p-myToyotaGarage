@@ -12,4 +12,9 @@ public class Suv extends ToyotaVehicle{
     public void offRoadMode(){
         System.out.println("offRoadMode on");
     }
+
+    @Override
+    public void startEngine(){
+        System.out.println("high power engine turned on...");
+    }
 }

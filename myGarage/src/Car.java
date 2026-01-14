@@ -12,4 +12,7 @@ public class Car extends ToyotaVehicle{
     public void sportMode(){
         System.out.println("sport mode on");
     }
+    public void startEngine(){
+        System.out.println("hybrid engine started...");
+    }
 }
