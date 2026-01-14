@@ -28,7 +28,7 @@ public class Main{
 
         ToyotaVehicle[] parkingLot1=new ToyotaVehicle[2];
         parkingLot1[0]=new Suv(2025,"white",8,"Diesel");
-        parkingLot1[1]=new Car(2025,"white",2,1500);
+        parkingLot1[1]=new Car(2022,"white",2,1500);
 
         for(ToyotaVehicle v: parkingLot1){
             v.startEngine();
