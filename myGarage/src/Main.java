@@ -11,6 +11,10 @@ public class Main{
 
         System.out.println(prado1.getColor());
 
+        //create a axio car
+        Car axio1=new Car(2022,"white",1,1000);
+
+        
 
 
     }

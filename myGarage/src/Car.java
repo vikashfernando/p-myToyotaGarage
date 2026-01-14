@@ -3,7 +3,7 @@ public class Car extends ToyotaVehicle{
     private double batterySize;
 
     //constructor
-    public Car(double y,String c,Double p,double b){
+    public Car(double y,String c,double p,double b){
         super(y,c,p);
         batterySize=b;
     }
