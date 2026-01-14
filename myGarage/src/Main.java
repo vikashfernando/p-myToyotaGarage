@@ -30,8 +30,10 @@ public class Main{
         parkingLot1[0]=new Suv(2025,"white",8,"Diesel");
         parkingLot1[1]=new Car(2025,"white",2,1500);
 
-        for(int i=0;i<parkingLot1.length;i++){
-            parkingLot1[i].startEngine();
+        for(ToyotaVehicle v: parkingLot1){
+            v.startEngine();
+            v.stopEngine();
+            v.getColor();
         }
 
     }

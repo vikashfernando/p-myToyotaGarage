@@ -43,4 +43,8 @@ public class ToyotaVehicle{
         System.out.println("engine stopped");
     }
 
+    public void displayInfor(){
+        System.out.println("this - "+year);
+    }
+
 }
