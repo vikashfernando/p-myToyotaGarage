@@ -19,8 +19,8 @@ public class Suv extends ToyotaVehicle{
 
     @Override
     public String toString(){
-      return ("this is the suv'S engine type "+engineType);
-      
+      return ("this suv's engine type "+engineType);
+
     };
 
 }
