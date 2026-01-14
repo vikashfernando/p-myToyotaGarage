@@ -16,4 +16,11 @@ public class Suv extends ToyotaVehicle{
     public void startEngine(){
         System.out.println("high power engine turned on...");
     }
+
+    @Override
+    public String toString(){
+      return ("this is the suv'S engine type "+engineType);
+      
+    };
+
 }
