@@ -25,9 +25,14 @@ public class Main{
 
         System.out.println("**********************");
 
-        ToyotaVehicle[] parkingLot1=new ToyotaVehicle[4];
 
+        ToyotaVehicle[] parkingLot1=new ToyotaVehicle[2];
+        parkingLot1[0]=new Suv(2025,"white",8,"Diesel");
+        parkingLot1[1]=new Car(2025,"white",2,1500);
 
+        for(int i=0;i<parkingLot1.length;i++){
+            parkingLot1[i].startEngine();
+        }
 
     }
 }
