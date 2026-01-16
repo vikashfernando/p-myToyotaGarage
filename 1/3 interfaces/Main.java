@@ -3,6 +3,7 @@ public class Main{
 
         Car axio1=new Car("g",2,15,1500);
 
+        
         ToyotaVehicle axio2=new Car("g",2,15,1500);
 
         axio1.safetyCheck();
