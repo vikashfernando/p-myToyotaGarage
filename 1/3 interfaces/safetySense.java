@@ -3,6 +3,5 @@ public interface safetySense{
     void laneDeparture();
 
 
-
     
 }
